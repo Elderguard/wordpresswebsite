@@ -56,6 +56,41 @@ section.top {
     opacity: 1;
 }
 
+.menu-mobile {
+    display: none; /*This will be toggled when screen reaches the determined on responsive value*/
+    float: right;
+}
+
+.menu-mobile i {
+    font-size: 33px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-mobile ul {
+    left: 0;
+    top: 80px;
+    width: 100%;
+    position: absolute;
+    list-style-type: none;
+    display: none  ;
+}
+
+.menu-mobile li {
+    text-align: center;
+    padding: 8px 0;
+    display: block;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #00f9f7;
+}
+
+.menu-mobile a {
+    display:block;
+    text-decoration: none;
+    color: #202020;
+}
+
 .team-description{
     margin-top: 50px;
     color: white;
@@ -193,8 +228,43 @@ section.diferenciais h2 {
     color: #202020;
 }
 
+section.about-team {
+    padding: 40px;
+    background-color: #f4f9fd;
+}
+
+.team-description2 {
+    padding: 0 20px;
+}
+
+.team-description2 h2 {
+    line-height: 35px; /*spacing in-between lines*/
+    color: #202020;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.team-description2 p {
+    color: #272727;
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+.team-image2 {
+    max-width: 100%;
+}
+
 
 @media screen and (max-width: 768px){
+    
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+    
     .box-single-diferenciais {
         width: 100%;
         margin-bottom: 30px;
@@ -202,6 +272,10 @@ section.diferenciais h2 {
     
     .w50{
         width: 100%;
+    }
+
+    .team-image2 {
+        margin-top: 30px;
     }
 
 }

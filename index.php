@@ -25,6 +25,16 @@
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
             </ul><!-- menu -->
+            
+            <div class="menu-mobile">
+                <i class="fas fa-align-right"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+
             <div class="clear"></div>
             <br />
             <br />
@@ -78,44 +88,34 @@
                     <p>O digital veio para ficar, sem dúvidas, mas uma comunicação integrada de verdade exige clareza nas decisões.</p>
                 </div><!-- box-single-diferenciais-->
         
-            </div>
+            </div><!-- icons-diferenciais-->
         
-        </div>
+        </div><!--center-->
 
+    </section><!--diferenciais-->
+
+    <section class="about-team">
+        <div class="center">
+            <div class="w50 team-description2">
+                <h2>Um time experiente,<br/> comunicador e coeso.</h2>
+                <p> A Product Runt acredita que marcas fortes são construídas a partir de transformações importantes e positivas na vida dos consumidores. Exatamente como uma conversa que ganha forma, a ideia vira flâmula.
+                <br />
+                <br />
+                Comunicar bem, de forma coerente e clara não é algo fácil e estamos aqui para ajudar você e seu time. Você escolhe, remoto ou presencial, para seu cliente ou seu público interno, você determina como vamos te ajudar. </p>
+            </div><!-- w50 -->
+            <div class="w50 team-image2">
+                <img src="images/time.png" />
+            </div>
+            <div class="clear"></div>
+        </div>
     </section>
+
+
 
     <script src="js/jquery.js"></script>
     <script src="js/slick.min.js"></script>
-    <script type="text/javascript">
-        $('section.customers-slider .slider-container').slick({
-            dots: true,
-            arrows: false,
-            infinite: false,
-            speed: 1000,
-            slidesToShow: 4,
-            autoplay: true,
-            centerMode: false,
-            autoplaySpeed: 3000,
-            pauseOnHover: false,
-            responsive:
-                [
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 2
-                        }
-                    }
-                ]
-        });
-        $('section.depoimentos .depoimentos-box').slick({
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 1000,
-            slidesToShow: 1,
-            centerMode: false
-        });
-    </script>
+    <script src="js/slickslider.js"></script>
+    <script src="js/menu.responsive.js"></script>
 
 </body>
 
