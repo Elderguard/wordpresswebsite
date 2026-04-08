@@ -154,7 +154,52 @@ li.slick-active button{
 
 /**END SLICK**/
 
+section.diferenciais {
+    padding: 30px 0;
+}
+
+section.diferenciais h2 {
+    color: #202020;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.icons-diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.box-single-diferenciais {
+    text-align: center;
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+/*Ajusta o tamanho das imagens para responsividade*/
+.box-single-diferenciais img{
+    max-width: 100%;
+}
+
+.box-single-diferenciais h3 {
+    font-size: 17px;
+    margin: 10px 0;
+    color: #202020;
+}
+
+.box-single-diferenciais p{
+    font-size: 14px;
+    color: #202020;
+}
+
+
 @media screen and (max-width: 768px){
+    .box-single-diferenciais {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
     .w50{
         width: 100%;
     }

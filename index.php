@@ -43,7 +43,7 @@
     <div class="circle"><i class="fas fa-angle-down"></i></div>
 
     <section class="customers-slider">
-        <div style = "max-width: 700px; margin: 0 auto; overflow: hidden;" class="slider-conteiner">
+        <div style = "max-width: 700px; margin: 0 auto; overflow: hidden;" class="slider-container">
             <img src="images/amazon.jpg"/>
             <img src="images/costco.jpg"/>
             <img src="images/dominos.jpg"/>
@@ -51,12 +51,43 @@
             <img src="images/walmart.jpg"/>
             
         </div><!-- center -->
+    </section> <!-- customers-slider -->
+
+
+    <section class="diferenciais">
+        <div class="center">
+            <h2>Contribuímos de ponta a ponta</h2>
+
+            <div class="icons-diferenciais">
+                
+                <div class="box-single-diferenciais">
+                    <img src="images/icon1.png"/>
+                    <h3>Ambientes Mobile</h3>
+                    <p>Garanta que toda a sua comunicação esteja alinhada com o seu propósito, cada palavra conta.</p>
+                </div><!-- box-single-diferenciais-->
+
+                <div class="box-single-diferenciais">
+                    <img src="images/icon2.png"/>
+                    <h3>Sites e Intranets</h3>
+                    <p>Um diálogo só acontece quando ambas as partes falam e escutam, garanta que seu público te entende.</p>
+
+                </div><!-- box-single-diferenciais-->
+                <div class="box-single-diferenciais">
+                    <img src="images/icon3.png"/>
+                    <h3>Comunicação one-to-one</h3>
+                    <p>O digital veio para ficar, sem dúvidas, mas uma comunicação integrada de verdade exige clareza nas decisões.</p>
+                </div><!-- box-single-diferenciais-->
+        
+            </div>
+        
+        </div>
+
     </section>
 
     <script src="js/jquery.js"></script>
     <script src="js/slick.min.js"></script>
     <script type="text/javascript">
-        $('section.customers-slider .slider-conteiner').slick({
+        $('section.customers-slider .slider-container').slick({
             dots: true,
             arrows: false,
             infinite: false,
