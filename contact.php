@@ -97,7 +97,7 @@
 </footer>
 <script src="js/jquery.js"></script>
 <script src="js/menu.responsive.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxoz0zQSZ-djvWGOBUsHkBUoT_qH4"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=Randomplaceholderforkey"></script>
 <script src="js/map.js"></script>
 </body>
 </html>
