@@ -136,23 +136,18 @@
     </section><!--testimony-->
     
     
-    <script src="js/jquery.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/slickslider.js"></script>
-    <script src="js/menu.responsive.js"></script>
-    
 </body>
 
 <footer>
     
-        <section class="methodology">
-            <div class="center">
-                <h2>Conheça nossa Metodologia</h2>
-                <p>O que acha de fazermos o que mais gostamos de fazer? Conversar! <br />Entre em contato por e-mail ou telefone.</p>
-                <a href="/contato">Entrar em Contato</a>
-            </div>
-        </section> 
-
+    <section class="methodology">
+        <div class="center">
+            <h2>Conheça nossa Metodologia</h2>
+            <p>O que acha de fazermos o que mais gostamos de fazer? Conversar! <br />Entre em contato por e-mail ou telefone.</p>
+            <a href="/contato">Entrar em Contato</a>
+        </div>
+    </section> 
+    
     <div class="center">
         <div class="col-footer">
             <h2>Suporte</h2>
@@ -174,5 +169,10 @@
         </div><!--col-footer-->
     </div><!--cemter-->
 </footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/menu.responsive.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slickslider.js"></script>
 
 </html>

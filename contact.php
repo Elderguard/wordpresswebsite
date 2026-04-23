@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="icon" href="images/R-icon.ico">
 </head>
 
 <body>
@@ -52,12 +53,26 @@
                 <div class="map-container">
                     <div  id="map"></div> <!--map-->
                 </div><!--map-container-->
-            </div>
-        </div>
+            </div><!--w50 contact-info-->
+            <div class="w50 contact-form">
+                <form>
+                    <input placeholder="Nome" type="text" />
+                    <input placeholder="Email" type="text" />
+                    <input placeholder="Telefone" type="text" />
+                    <select>
+                        <option value="">Geral</option>
+                        <option value="">Suporte</option>
+                    </select>
+                    <textarea placeholder="Mensagem"></textarea>
+                    <input type="submit" value="Enviar!">
+                    
+                </form>
+            </div><!-- contact-form-->
+        </div><!--center-->
         <div class="clear"></div>
-    </section>
+    </section><!--contact-->
 
-<footer>
+<footer style="padding: 60px 0">
 
     <div class="center">
         <div class="col-footer">
@@ -80,5 +95,9 @@
         </div><!--col-footer-->
     </div><!--cemter-->
 </footer>
+<script src="js/jquery.js"></script>
+<script src="js/menu.responsive.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxoz0zQSZ-djvWGOBUsHkBUoT_qH4"></script>
+<script src="js/map.js"></script>
 </body>
 </html>

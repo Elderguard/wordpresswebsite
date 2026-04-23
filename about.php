@@ -100,5 +100,7 @@
         </div><!--col-footer-->
     </div><!--cemter-->
 </footer>
+<script src="js/jquery.js"></script>
+<script src="js/menu.responsive.js"></script>
 </body>
 </html>
