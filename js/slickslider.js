@@ -18,7 +18,7 @@
                     }
                 ]
         });
-        $('section.depoimentos .depoimentos-box').slick({
+        $('section.testimony .testimony-box').slick({
             dots: true,
             arrows: false,
             infinite: true,

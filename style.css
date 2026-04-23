@@ -254,6 +254,190 @@ section.about-team {
     max-width: 100%;
 }
 
+section.testimony {
+    padding: 100px 0;
+    background-color: #23188f;
+}
+
+section.testimony h2 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.testimony-box {
+    margin: 10px auto;
+    color: white;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.testimony-single {
+    width: 100%;
+    display: inline-block;
+}
+
+.testimony-single p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.testimony-single img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+section.methodology {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background: white;
+    box-shadow: 10px 20px 60px 0 rgba (0,0,0, 0.06);
+    border-top: 3px solid #ffca00;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+section.methodology h2 {
+    color: #232931;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+section.methodology p {
+    font-size: 14px;
+    color: #b4b4b4;
+    margin: 15px 0;
+}
+
+section.methodology a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #23188f;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+footer{
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background: white;
+}
+
+footer > .center {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-footer {
+    width: 20%;
+}
+
+.col-footer h2 {
+    color: #232931;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.col-footer a {
+    color: #b4b4b4;
+    font-size: 13px;
+    font-weight: normal;
+    display: block;
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+/*ABOUT PAGE*/
+section.aboutpage-team {
+    padding: 40px 0;
+}
+
+section.aboutpage-team img {
+    max-width: 100%;
+}
+
+.aboutpage-team-text {
+    padding: 0 20px;
+}
+
+.aboutpage-team-text h2{
+    font-size: 45px;
+    color: #202020;
+}
+
+.aboutpage-team-text p {
+    line-height: 32px;
+    font-size: 16px;
+    color: #202020;
+}
+
+section.aboutpage-images {
+    padding: 100px;
+    background-color: #f4f9fd;
+}
+
+.aboutpage-images > .center {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutpage-images img {
+    max-width: 100%;
+}
+
+.aboutpage-images .img-about {
+    padding: 0 30px;
+    width: 25%;
+}
+
+/*CONTACT*/
+section.contact {
+    padding: 30px 0;
+}
+
+.contact-info h2 {
+    color: #202020;
+    font-size: 43px;
+    font-weight: normal;
+}
+
+.contact-info p {
+    color: #202020;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.map-container {
+    width: 100%;
+    padding-top: 70%;
+    background: red;
+    position: relative
+}
+
+div#map {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
 
 @media screen and (max-width: 768px){
     
@@ -278,4 +462,19 @@ section.about-team {
         margin-top: 30px;
     }
 
+    .col-footer {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    section.aboutpage-team img{
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    .aboutpage-images .img-about {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }

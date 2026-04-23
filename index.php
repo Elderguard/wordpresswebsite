@@ -108,19 +108,71 @@
             </div>
             <div class="clear"></div>
         </div>
-    </section>
+    </section><!--about team -->
 
+    <section class = "testimony">
+        <div class="center">
+            <h2>Depoimentos</h2>
+            <div class="testimony-box">
+                <div class="testimony-single">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, maiores illum. Ratione ex quos officia sit, assumenda explicabo excepturi quas nemo possimus, quae illum qui corrupti ipsam expedita fugit asperiores.</p>
+                    <p>Elder Ramos</p>
+                    <img src="images/autor.jpg" alt="">
+                </div><!--testimony-single-->
 
+                <div class="testimony-single">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, maiores illum. Ratione ex quos officia sit, assumenda explicabo excepturi quas nemo possimus, quae illum qui corrupti ipsam expedita fugit asperiores.</p>
+                    <p>Elder Ramos</p>
+                    <img src="images/autor.jpg" alt="">
+                </div><!--testimony-single-->
 
+                <div class="testimony-single">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, maiores illum. Ratione ex quos officia sit, assumenda explicabo excepturi quas nemo possimus, quae illum qui corrupti ipsam expedita fugit asperiores.</p>
+                    <p>Elder Ramos</p>
+                    <img src="images/autor.jpg" alt="">
+                </div><!--testimony-single-->
+            </div><!--testimony-box-->
+        </div><!--center-->
+    </section><!--testimony-->
+    
+    
     <script src="js/jquery.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/slickslider.js"></script>
     <script src="js/menu.responsive.js"></script>
-
+    
 </body>
 
 <footer>
-    <p>Copyright &copy; 2026.</p>
+    
+        <section class="methodology">
+            <div class="center">
+                <h2>Conheça nossa Metodologia</h2>
+                <p>O que acha de fazermos o que mais gostamos de fazer? Conversar! <br />Entre em contato por e-mail ou telefone.</p>
+                <a href="/contato">Entrar em Contato</a>
+            </div>
+        </section> 
+
+    <div class="center">
+        <div class="col-footer">
+            <h2>Suporte</h2>
+            <a href="">Contato</a>
+            <a href="">FAQ</a>
+        </div><!--col-footer-->
+        <div class="col-footer">
+            <h2>Suporte</h2>
+            <a href="">Contato</a>
+            <a href="">FAQ</a>
+        </div><!--col-footer-->
+        <div class="col-footer">
+            <h2>Suporte</h2>
+            <a href="">Contato</a>
+            <a href="">FAQ</a>
+        </div><!--col-footer-->
+        <div style="width:40%;text-align:right;" class="col-footer">
+            <img src="images/logo-footer.png" alt="">
+        </div><!--col-footer-->
+    </div><!--cemter-->
 </footer>
 
 </html>
